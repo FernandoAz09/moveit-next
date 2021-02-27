@@ -1,3 +1,5 @@
+// LAYOUT DA APLICAÇÃO
+
 import '../styles/global.css'
 
 import { useState } from 'react'
@@ -8,7 +10,7 @@ import '../styles/global.css'
 function MyApp({ Component, pageProps }) {
   return (
    <ChallengesProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </ChallengesProvider>
 )}
 
