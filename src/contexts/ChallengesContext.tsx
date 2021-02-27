@@ -100,5 +100,3 @@ export function ChallengesProvider({ children } : ChallengesProviderProps) {
         </ChallengesContext.Provider>
     )
 }
-
-// Uso dos Contextos no React = Pode ter informações dentro do contexto e funções que poderão atualizar essas informações
